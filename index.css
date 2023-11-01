@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&family=Tilt+Neon&display=swap');
+
+body {
+    background: #eee;
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.info {
+   display: flex;
+}
+
+.info h1 {
+   margin: 70px 0 70px;
+}
+
+
+.container{ 
+   max-width: 600px;
+   margin: auto;
+   padding-top: 30px;
+   
+}
+@media(max-width:630px) {
+   .info {
+      display: block;
+      text-align: center;
+   }
+}
+
+.img {
+   width: 200px;
+   border-radius: 28px;
+   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+   margin-bottom: 20px;
+  
+}  
+
+ .card {
+    border: solid transparent;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+ }
+
+ .card h2 {
+   margin-bottom: 10px;
+ }
+
+ .bg1 {
+    background: #FFF8DC;
+    padding: 10px;
+    margin-left: 20px;
+    text-align: center;
+ }
+
+ .bg2 {
+    background: #E6E6FA;
+    padding: 10px;
+ }
+
+ .bg3 {
+    background: #FFF0F5;
+    padding: 10px;
+ }
+
+ .bg4 {
+    background: #FFE4E1;
+    padding: 10px;
+ }
+
+h1 {
+    color: blueviolet;
+    line-height: 10px;
+}
+h3 {
+    color: chocolate;
+}
+h4 {
+    color: darkmagenta;
+}
+
+.info {
+   margin-bottom: 15px;
+}
+
+hr {
+   border-width: 2px;
+   border-style: dashed;
+   border-color: burlywood;
+  
+}
+
+.btn {
+   background: #FFE4E1;
+   border-radius: 15px;
+   font-weight: bold;
+   border-width: 1px;
+   border-color: burlywood;
+   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.20);
+}
+
+a {
+   color: rgb(67, 28, 104);
+   text-decoration: none;
+   transition: all.2s;
+}
+
+a:hover {
+   color: blue;
+   font-size: 20px;
+}
+
+.lists {
+   margin: 0;
+   padding: 0;
+   list-style: circle;
+}
+
+.lists li{
+   margin-left: 20px;
+   margin-bottom: 10px;
+
+}
+
+.lists li:nth-child(even){
+   background:#ebc1cf ;
+   
+}
+.lists li:nth-child(odd){
+   background:#efd1db ;
+   
+}
+.tbl {
+   width: 100%;
+
+   
+}
+
+.tbl th {
+   background: #deaba5;
+   text-align: left;
+}
+
+.tbl td {
+   border-width: 2px;
+   border-style: dashed;
+   border-color: #deaba5;
+   font-size: 13px;
+   text-align: center;
+   
+}
+
+.form h4{
+   text-align: center;
+}
+
+.form-row {
+   margin-bottom: 10px;
+   display: flex;
+}
+
+.form-row .form-group {
+   margin-right: 20px;
+   width: 50%;
+} 
+
+.form-row .form-group:last-child{
+   margin-right: 0;
+}
+.form-group label {
+   display: block;
+   font-size: 14px;
+   color: #deaba5;
+}
+
+.form-group input, .form-group textarea{
+   width: 100%;
+   box-sizing: border-box;
+   border: none;
+   background: transparent;
+   border-bottom: 1px solid #ccc;
+   color: #000;
+   padding: 15px 0 10px;
+   outline: none;
+   font-family: inherit;
+}
+
